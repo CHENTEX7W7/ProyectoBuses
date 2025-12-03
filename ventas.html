@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Venta de Pasajes | Quijarro Transportes</title>
+<link rel="stylesheet" href="../css/ventas.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="brand">
+    <img src="../img/quijarro.png" alt="logo">
+    <span>Quijarro Transportes</span>
+  </div>
+  <div class="header-controls">
+    <button id="theme-toggle" class="btn-theme">🌙</button>
+    <button id="logout-btn" class="btn-ghost">Cerrar Sesión</button>
+  </div>
+</header>
+
+<main class="container">
+  <section class="controls">
+    <div class="tabs" role="tablist" aria-label="Ciudades">
+      <button class="tab active" data-city="La Paz">La Paz</button>
+      <button class="tab" data-city="Oruro">Oruro</button>
+      <button class="tab" data-city="Potosí">Potosí</button>
+      <button class="tab" data-city="Chuquisaca">Chuquisaca</button>
+      <button class="tab" data-city="Cochabamba">Cochabamba</button>
+      <button class="tab" data-city="Tarija">Tarija</button>
+      <button class="tab" data-city="Santa Cruz">Santa Cruz</button>
+      <button class="tab" data-city="Beni">Beni</button>
+      <button class="tab" data-city="Pando">Pando</button>
+    </div>
+  </section>
+
+  <section class="content">
+    <div class="city-info">
+      <h2 id="city-title">La Paz — Altiplano</h2>
+      <p id="city-desc">Selecciona un viaje y elige tus asientos. Haz click en "Seleccionar asientos" para abrir el mapa.</p>
+    </div>
+    <div id="trips-container" class="trips-grid"></div>
+  </section>
+</main>
+
+<div id="seat-panel" class="seat-panel hidden" aria-hidden="true">
+  <div class="panel-inner">
+    <button id="close-panel" class="close-btn" aria-label="Cerrar">&times;</button>
+    <div class="panel-top">
+      <img id="panel-bus" class="panel-bus-img" src="" alt="Bus">
+      <div class="trip-meta">
+        <h3 id="panel-route"></h3>
+        <p id="panel-type"></p>
+        <p id="panel-schedule"></p>
+        <p id="panel-desc"></p>
+      </div>
+    </div>
+    <div class="seat-stage">
+      <div class="screen">FRENTE</div>
+      <div id="seats-grid" class="seats-grid"></div>
+      <div class="legend">
+        <div><span class="seat example available"></span> Disponible</div>
+        <div><span class="seat example selected"></span> Seleccionado</div>
+        <div><span class="seat example occupied"></span> Ocupado</div>
+      </div>
+    </div>
+    <div class="panel-bottom">
+      <div class="price-info">
+        <div>Asientos: <span id="selected-count">0</span></div>
+        <div>Total: <strong id="selected-total">Bs. 0</strong></div>
+      </div>
+      <div class="actions">
+        <button id="btn-pay" class="btn-primary">Pagar</button>
+        <button id="btn-cancel" class="btn-ghost">Cancelar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="confirm-modal" class="seat-panel hidden">
+  <div class="panel-inner">
+    <p>¿Está seguro de su compra?</p>
+    <div class="actions">
+      <button id="confirm-yes" class="btn-primary">Sí</button>
+      <button id="confirm-no" class="btn-ghost">No</button>
+    </div>
+  </div>
+</div>
+
+<div id="toast" class="toast hidden"></div>
+<script src="../js/ventas.js"></script>
+</body>
+</html>

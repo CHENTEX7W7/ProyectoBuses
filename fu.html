@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario | Quijarro Transportes</title>
+    <link rel="stylesheet" href="../css/fu.css">
+</head>
+<body>
+
+<div class="form-wrapper fade-in">
+
+    <div class="logo-container">
+        <img src="../img/quijarro.png" alt="Logo">
+    </div>
+
+    <div class="tab-header slide-down">
+        <div class="tab active" data-tab="register">Crear Usuario</div>
+        <div class="tab" data-tab="login">Iniciar Sesión</div>
+    </div>
+
+    <div class="tab-body">
+
+        <div class="tab-content active" id="register">
+            <h2 class="title zoom-in">Crear Cuenta</h2>
+            <form>
+                <div class="input-group">
+                    <label>Nombre Completo</label>
+                    <input type="text" required>
+                </div>
+                <div class="input-group">
+                    <label>Correo Electrónico</label>
+                    <input type="email" required>
+                </div>
+                <div class="input-group">
+                    <label>Contraseña</label>
+                    <input type="password" required>
+                </div>
+                <button class="btn-submit">Registrarse</button>
+            </form>
+        </div>
+
+        <div class="tab-content" id="login">
+            <h2 class="title zoom-in">Iniciar Sesión</h2>
+            <form>
+                <div class="input-group">
+                    <label>Correo Electrónico</label>
+                    <input type="email" required>
+                </div>
+                <div class="input-group">
+                    <label>Contraseña</label>
+                    <input type="password" required>
+                </div>
+                <button class="btn-submit">Ingresar</button>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+<script src="../js/fu.js"></script>
+</body>
+</html>
