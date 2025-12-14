@@ -13,14 +13,14 @@ body{font-family:Arial,Helvetica,sans-serif;margin:0;background:var(--bg);color:
 a{color:inherit;text-decoration:none}
 .section-pad{padding:70px 60px}
 
-/* NAV */
+
 .navbar{width:100%;padding:18px 60px;background:var(--dark);display:flex;align-items:center;justify-content:space-between;gap:20px;position:sticky;top:0;z-index:50}
 .logo{width:150px}
 .navbar nav{display:flex;gap:18px;align-items:center}
 .navbar nav a{color:#fff;font-size:14px;opacity:0.9}
 .btn-header{background:var(--accent);color:#fff;padding:10px 18px;border-radius:24px}
 
-/* HERO */
+
 .hero{display:flex;align-items:center;justify-content:space-between;padding:60px 80px;background:#fff;gap:30px}
 .hero-text{max-width:560px}
 .logo-hero{width:220px}
@@ -34,10 +34,10 @@ a{color:inherit;text-decoration:none}
 .call-box p{color:var(--accent-2);font-weight:600;text-transform:uppercase}
 .call-box h2{color:var(--accent);letter-spacing:1px}
 
-/* DIVIDER */
+
 .divider{width:100%;height:80px;background:#333;margin:60px 0}
 
-/* VIAJES */
+
 .viajes{background:#fff;padding:50px 60px}
 .title{display:flex;justify-content:space-between;align-items:center}
 .title h2{text-align:center;font-size:24px;color:#555}
@@ -46,13 +46,13 @@ a{color:inherit;text-decoration:none}
 .card img{width:100%;height:150px;object-fit:cover;display:block}
 .card h3{padding:12px 10px;font-size:14px;letter-spacing:1px;color:#222}
 
-/* OFICINAS */
+
 .oficinas{display:flex;align-items:center;justify-content:space-between;gap:30px;background:#fff;padding:70px 60px}
 .ofi-img img{width:480px}
 .ofi-text h2{color:var(--accent);font-size:32px;margin-bottom:14px}
 .ofi-text p{max-width:520px;color:#444;margin-bottom:18px}
 
-/* BENTO GRID */
+
 .bento-inner{max-width:1200px;margin:0 auto}
 .bento-title{margin-bottom:22px;text-align:center}
 .bento-grid{display:grid;grid-template-columns:repeat(6,1fr);grid-template-rows:repeat(4,120px);gap:18px}
@@ -69,7 +69,7 @@ a{color:inherit;text-decoration:none}
 .tile-5{grid-column:3 / span 2;grid-row:3 / span 1}
 .tile-6{grid-column:5 / span 2;grid-row:3 / span 2}
 
-/* CAROUSEL */
+
 .carousel-container{max-width:1100px;margin:0 auto;background:#fff;padding:28px;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,0.06)}
 .carousel-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
 .carousel-header h2{font-size:20px;color:#333}
@@ -83,13 +83,13 @@ a{color:inherit;text-decoration:none}
 .carousel-dot{width:10px;height:10px;border-radius:50%;background:#ddd;cursor:pointer}
 .carousel-dot.active{background:var(--accent)}
 
-/* FOOTER */
+
 footer{background:var(--dark);color:#fff;padding:40px 60px;margin-top:40px}
 .footer-container{display:grid;grid-template-columns:repeat(4,1fr);gap:30px;align-items:start}
 .logo-footer{width:140px}
 .footer-bottom{margin-top:28px;text-align:center;color:#d0d0d0}
 
-/* ANIMATIONS */
+
 .reveal{opacity:0;transform:translateY(16px);transition:opacity .7s ease,transform .7s ease}
 .reveal.visible{opacity:1;transform:none}
 .fade-in{animation:fadeIn .8s ease both}
@@ -100,7 +100,7 @@ footer{background:var(--dark);color:#fff;padding:40px 60px;margin-top:40px}
 @keyframes slideIn{from{transform:translateY(18px);opacity:0}to{transform:none;opacity:1}}
 @keyframes zoomIn{from{transform:scale(.96);opacity:0}to{transform:scale(1);opacity:1}}
 
-/* RESPONSIVE */
+
 @media (max-width:1100px){
     .cards{grid-template-columns:repeat(2,1fr)}
     .hero{flex-direction:column;padding:40px}
@@ -123,5 +123,5 @@ footer{background:var(--dark);color:#fff;padding:40px 60px;margin-top:40px}
     footer{padding:30px 20px}
 }
 
-/* SMALL UI */
+
 .card:hover{transform:translateY(-6px)}
