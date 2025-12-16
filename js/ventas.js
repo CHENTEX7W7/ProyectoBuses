@@ -1,7 +1,7 @@
 const data = {
   "La Paz":[
     {id:"LP1",from:"Quijarro - La Paz",to:"La Paz Central",time:"06:30",priceBase:40,type:"Ejecutivo",desc:"Servicio ejecutivo, snacks incluidos",seatsLayout:{rows:8,cols:4},img:"../img/bus2.png"},
-    {id:"LP2",from:"La Paz Express",to:"El Alto",time:"07:00",priceBase:35,type:"SemiCama",desc:"Asientos cómodos",seatsLayout:{rows:8,cols:4},img:"../img/bus1.png"},
+    {id:"LP2",from:"La Paz Express",to:"El Alto",time:"07:00",priceBase:35,type:"SemiCama",desc:"Asientos cómodos",seatsLayout:{rows:8,cols:4},img:"../img/gb.png"},
     {id:"LP3",from:"Altiplano Rápido",to:"La Paz Sur",time:"07:30",priceBase:38,type:"Cama",desc:"Cama confortable",seatsLayout:{rows:8,cols:4},img:"../img/bus2.png"},
     {id:"LP4",from:"La Paz Urbano",to:"Copacabana",time:"08:00",priceBase:45,type:"Ejecutivo",desc:"Servicio completo con refrigerio",seatsLayout:{rows:8,cols:4},img:"../img/bus1.png"},
     {id:"LP5",from:"La Paz Plus",to:"El Alto",time:"08:30",priceBase:36,type:"SemiCama",desc:"Asientos confortables",seatsLayout:{rows:8,cols:4},img:"../img/bus2.png"},
@@ -38,20 +38,20 @@ const data = {
   "Chuquisaca":[
     {id:"CH1",from:"Sucre Line",to:"Sucre Central",time:"06:30",priceBase:33,type:"Cama",desc:"Cama completa para mayor confort",seatsLayout:{rows:8,cols:4},img:"../img/bus2.png"},
     {id:"CH2",from:"Sucre Rapid",to:"Azurduy",time:"07:15",priceBase:30,type:"SemiCama",desc:"Asientos cómodos",seatsLayout:{rows:7,cols:4},img:"../img/bus1.png"},
-    {id:"CH3",from:"Sucre Express",to:"Sucre Centro",time:"08:00",priceBase:35,type:"Ejecutivo",desc:"Servicio ejecutivo",seatsLayout:{rows:8,cols:4},img:"../img/bus2.png"},
+    {id:"CH3",from:"Sucre Express",to:"Sucre Centro",time:"08:00",priceBase:35,type:"Ejecutivo",desc:"Servicio ejecutivo",seatsLayout:{rows:8,cols:4},img:"../img/gb.png"},
     {id:"CH4",from:"Sucre Urbano",to:"Azurduy",time:"08:45",priceBase:32,type:"Cama",desc:"Cama confort",seatsLayout:{rows:8,cols:4},img:"../img/bus1.png"},
     {id:"CH5",from:"Sucre Plus",to:"Sucre Central",time:"09:30",priceBase:33,type:"Cama",desc:"Servicio completo",seatsLayout:{rows:8,cols:4},img:"../img/bus2.png"},
     {id:"CH6",from:"Sucre Line",to:"Azurduy",time:"10:15",priceBase:30,type:"SemiCama",desc:"Servicio básico",seatsLayout:{rows:7,cols:4},img:"../img/bus1.png"},
     {id:"CH7",from:"Sucre Rapid",to:"Sucre Central",time:"11:00",priceBase:35,type:"Ejecutivo",desc:"Servicio ejecutivo",seatsLayout:{rows:8,cols:4},img:"../img/bus2.png"},
     {id:"CH8",from:"Sucre Express",to:"Azurduy",time:"11:45",priceBase:32,type:"Cama",desc:"Servicio completo",seatsLayout:{rows:8,cols:4},img:"../img/bus1.png"},
     {id:"CH9",from:"Sucre Urbano",to:"Sucre Central",time:"12:30",priceBase:33,type:"Cama",desc:"Cama confortable",seatsLayout:{rows:8,cols:4},img:"../img/bus2.png"},
-    {id:"CH10",from:"Sucre Plus",to:"Azurduy",time:"13:15",priceBase:30,type:"SemiCama",desc:"Asientos básicos",seatsLayout:{rows:7,cols:4},img:"../img/bus1.png"}
+    {id:"CH10",from:"Sucre Plus",to:"Azurduy",time:"13:15",priceBase:30,type:"SemiCama",desc:"Asientos básicos",seatsLayout:{rows:7,cols:4},img:"../img/gb.png"}
   ],
   "Cochabamba":[
     {id:"CB1",from:"Cochabamba Line",to:"Cochabamba Central",time:"06:00",priceBase:36,type:"Ejecutivo",desc:"Servicio ejecutivo y refrigerio",seatsLayout:{rows:8,cols:4},img:"../img/bus2.png"},
     {id:"CB2",from:"Cochabamba Rapid",to:"Sacaba",time:"06:45",priceBase:34,type:"SemiCama",desc:"Asientos cómodos",seatsLayout:{rows:7,cols:4},img:"../img/bus1.png"},
     {id:"CB3",from:"Cochabamba Express",to:"Cochabamba Norte",time:"07:30",priceBase:38,type:"Cama",desc:"Servicio cama",seatsLayout:{rows:8,cols:4},img:"../img/bus2.png"},
-    {id:"CB4",from:"Cochabamba Urbano",to:"Sacaba",time:"08:15",priceBase:36,type:"Ejecutivo",desc:"Servicio completo",seatsLayout:{rows:8,cols:4},img:"../img/bus1.png"},
+    {id:"CB4",from:"Cochabamba Urbano",to:"Sacaba",time:"08:15",priceBase:36,type:"Ejecutivo",desc:"Servicio completo",seatsLayout:{rows:8,cols:4},img:"../img/gb.png"},
     {id:"CB5",from:"Cochabamba Plus",to:"Cochabamba Central",time:"09:00",priceBase:37,type:"Cama",desc:"Cama confortable",seatsLayout:{rows:8,cols:4},img:"../img/bus2.png"},
     {id:"CB6",from:"Cochabamba Line",to:"Sacaba",time:"09:45",priceBase:34,type:"SemiCama",desc:"Servicio básico",seatsLayout:{rows:7,cols:4},img:"../img/bus1.png"},
     {id:"CB7",from:"Cochabamba Rapid",to:"Cochabamba Norte",time:"10:30",priceBase:38,type:"Cama",desc:"Servicio cama con refrigerio",seatsLayout:{rows:8,cols:4},img:"../img/bus2.png"},
@@ -67,13 +67,13 @@ const data = {
     {id:"TJ5",from:"Tarija Plus",to:"Terminal Tarija",time:"09:30",priceBase:34,type:"Ejecutivo",desc:"Servicio completo",seatsLayout:{rows:8,cols:4},img:"../img/bus2.png"},
     {id:"TJ6",from:"Tarija Sur",to:"Padcaya",time:"10:15",priceBase:32,type:"SemiCama",desc:"Asientos básicos",seatsLayout:{rows:7,cols:4},img:"../img/bus1.png"},
     {id:"TJ7",from:"Tarija Rapid",to:"Terminal Tarija",time:"11:00",priceBase:34,type:"Ejecutivo",desc:"Servicio ejecutivo",seatsLayout:{rows:8,cols:4},img:"../img/bus2.png"},
-    {id:"TJ8",from:"Tarija Express",to:"Padcaya",time:"11:45",priceBase:33,type:"Cama",desc:"Cama confortable",seatsLayout:{rows:8,cols:4},img:"../img/bus1.png"},
+    {id:"TJ8",from:"Tarija Express",to:"Padcaya",time:"11:45",priceBase:33,type:"Cama",desc:"Cama confortable",seatsLayout:{rows:8,cols:4},img:"../img/gb.png"},
     {id:"TJ9",from:"Tarija Urbano",to:"Terminal Tarija",time:"12:30",priceBase:32,type:"SemiCama",desc:"Asientos cómodos",seatsLayout:{rows:7,cols:4},img:"../img/bus2.png"},
     {id:"TJ10",from:"Tarija Plus",to:"Padcaya",time:"13:15",priceBase:34,type:"Ejecutivo",desc:"Servicio completo",seatsLayout:{rows:8,cols:4},img:"../img/bus1.png"}
   ],
   "Santa Cruz":[
     {id:"SC1",from:"Santa Cruz Central",to:"Terminal SC",time:"05:30",priceBase:45,type:"Ejecutivo",desc:"Servicio ejecutivo largo recorrido",seatsLayout:{rows:9,cols:4},img:"../img/bus2.png"},
-    {id:"SC2",from:"Santa Cruz Económico",to:"Terminal SC",time:"06:15",priceBase:28,type:"Económico",desc:"Opción económica nocturna",seatsLayout:{rows:8,cols:4},img:"../img/bus1.png"},
+    {id:"SC2",from:"Santa Cruz Económico",to:"Terminal SC",time:"06:15",priceBase:28,type:"Económico",desc:"Opción económica nocturna",seatsLayout:{rows:8,cols:4},img:"../img/gb.png"},
     {id:"SC3",from:"Santa Cruz Rapid",to:"El Carmen",time:"07:00",priceBase:38,type:"Cama",desc:"Servicio cama",seatsLayout:{rows:8,cols:4},img:"../img/bus2.png"},
     {id:"SC4",from:"Santa Cruz Express",to:"Terminal SC",time:"07:45",priceBase:42,type:"Ejecutivo",desc:"Servicio premium",seatsLayout:{rows:9,cols:4},img:"../img/bus1.png"},
     {id:"SC5",from:"Santa Cruz Urbano",to:"El Carmen",time:"08:30",priceBase:40,type:"Cama",desc:"Asientos cómodos",seatsLayout:{rows:8,cols:4},img:"../img/bus2.png"},
@@ -88,7 +88,7 @@ const data = {
     {id:"BN2",from:"Beni Rapid",to:"Guayaramerín",time:"06:45",priceBase:36,type:"Ejecutivo",desc:"Servicio ejecutivo",seatsLayout:{rows:8,cols:4},img:"../img/bus1.png"},
     {id:"BN3",from:"Beni Express",to:"Trinidad Central",time:"07:30",priceBase:35,type:"Cama",desc:"Servicio cama confortable",seatsLayout:{rows:8,cols:4},img:"../img/bus2.png"},
     {id:"BN4",from:"Beni Urbano",to:"Guayaramerín",time:"08:15",priceBase:34,type:"SemiCama",desc:"Asientos cómodos",seatsLayout:{rows:7,cols:4},img:"../img/bus1.png"},
-    {id:"BN5",from:"Beni Plus",to:"Trinidad Central",time:"09:00",priceBase:36,type:"Ejecutivo",desc:"Servicio completo",seatsLayout:{rows:8,cols:4},img:"../img/bus2.png"},
+    {id:"BN5",from:"Beni Plus",to:"Trinidad Central",time:"09:00",priceBase:36,type:"Ejecutivo",desc:"Servicio completo",seatsLayout:{rows:8,cols:4},img:"../img/gb.png"},
     {id:"BN6",from:"Beni Line",to:"Guayaramerín",time:"09:45",priceBase:34,type:"SemiCama",desc:"Servicio básico",seatsLayout:{rows:7,cols:4},img:"../img/bus1.png"},
     {id:"BN7",from:"Beni Rapid",to:"Trinidad Central",time:"10:30",priceBase:36,type:"Ejecutivo",desc:"Servicio ejecutivo",seatsLayout:{rows:8,cols:4},img:"../img/bus2.png"},
     {id:"BN8",from:"Beni Express",to:"Guayaramerín",time:"11:15",priceBase:35,type:"Cama",desc:"Cama confortable",seatsLayout:{rows:8,cols:4},img:"../img/bus1.png"},
@@ -104,8 +104,8 @@ const data = {
     {id:"PD6",from:"Pando Line",to:"Porvenir",time:"10:15",priceBase:38,type:"Ejecutivo",desc:"Servicio ejecutivo",seatsLayout:{rows:8,cols:4},img:"../img/bus1.png"},
     {id:"PD7",from:"Pando Express",to:"Cobija",time:"11:00",priceBase:37,type:"Cama",desc:"Cama confortable",seatsLayout:{rows:8,cols:4},img:"../img/bus2.png"},
     {id:"PD8",from:"Pando Rapid",to:"Porvenir",time:"11:45",priceBase:35,type:"SemiCama",desc:"Asientos cómodos",seatsLayout:{rows:7,cols:4},img:"../img/bus1.png"},
-    {id:"PD9",from:"Pando Line",to:"Cobija",time:"12:30",priceBase:38,type:"Ejecutivo",desc:"Servicio completo",seatsLayout:{rows:8,cols:4},img:"../img/bus2.png"},
-    {id:"PD10",from:"Pando Express",to:"Porvenir",time:"13:15",priceBase:37,type:"Cama",desc:"Cama confortable",seatsLayout:{rows:8,cols:4},img:"../img/bus1.png"}
+    {id:"PD9",from:"Pando Line",to:"Cobija",time:"12:30",priceBase:38,type:"Ejecutivo",desc:"Servicio completo",seatsLayout:{rows:8,cols:4},img:"../img/gb.png"},
+    {id:"PD10",from:"Pando Express",to:"Porvenir",time:"13:15",priceBase:37,type:"Cama",desc:"Cama confortable",seatsLayout:{rows:8,cols:4},img:"../img/gb.png"}
   ]
 }
 
