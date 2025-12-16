@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sucursales - Quijarro Transportes</title>
+    <link rel="stylesheet" href="./css/su.css">
+    <link rel="stylesheet" href="./css/sucursales.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<header class="navbar">
+    <img src="../img/quijarro.png" class="logo">
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./fu.html">Servicios</a>
+        <a href="./fu.html">Precios</a>
+         <a href="./encomiendas.html">envios</a>
+         <a href="./su.html">Sucursales</a>
+    </nav>
+    <a href="./fu.html" class="btn-header"><i class="fa-solid fa-ticket"></i> Compra tu pasaje</a>
+</header>
+
+<section class="sucursales-hero">
+    <div class="hero-content">
+        <h1>NUESTRAS SUCURSALES</h1>
+        <p>Encuentra nuestra oficina más cercana en todo el país</p>
+    </div>
+</section>
+
+<section class="sucursales-container">
+    <aside class="sidebar">
+        <h3>REGIONES</h3>
+        
+        <div class="region-group">
+            <h4>ALTIPLANO</h4>
+            <button class="city-btn" data-city="la-paz">La Paz</button>
+            <button class="city-btn" data-city="oruro">Oruro</button>
+            <button class="city-btn" data-city="potosi">Potosí</button>
+        </div>
+
+        <div class="region-group">
+            <h4>VALLE</h4>
+            <button class="city-btn" data-city="chuquisaca">Chuquisaca</button>
+            <button class="city-btn" data-city="cochabamba">Cochabamba</button>
+            <button class="city-btn" data-city="tarija">Tarija</button>
+        </div>
+
+        <div class="region-group">
+            <h4>LLANO</h4>
+            <button class="city-btn" data-city="santa-cruz">Santa Cruz</button>
+            <button class="city-btn" data-city="beni">Beni</button>
+            <button class="city-btn" data-city="pando">Pando</button>
+        </div>
+    </aside>
+
+    <main class="sucursales-content">
+        <div class="content-header">
+            <h2 id="selected-city">Selecciona una ciudad</h2>
+        </div>
+        <div class="sucursales-grid" id="sucursales-grid">
+            <div class="empty-state">
+                <i class="fa-solid fa-map-location-dot"></i>
+                <p>Selecciona una ciudad del menú para ver las sucursales disponibles</p>
+            </div>
+        </div>
+    </main>
+</section>
+
+<footer>
+    <div class="footer-container">
+        <div>
+            <img src="../img/quijarro.png" class="logo-footer">
+            <p>Servicio de transporte.</p>
+        </div>
+
+        <div>
+            <h4>Servicios</h4>
+            <p>House Cleaning</p>
+            <p>Office Cleaning</p>
+            <p>Window Cleaning</p>
+            <p>Floor Cleaning</p>
+        </div>
+
+        <div>
+            <h4>Links</h4>
+            <p>Home Page</p>
+            <p>Service Page</p>
+            <p>Blog</p>
+            <p>Contact Us</p>
+        </div>
+
+        <div>
+            <h4>Contactos</h4>
+            <p><i class="fa-solid fa-phone"></i> 456-575-4551</p>
+            <p><i class="fa-solid fa-envelope"></i> example@gmail.com</p>
+            <p><i class="fa-solid fa-location-dot"></i> Lorem Ipsum Text</p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+        <p>© 2025 Trans Quijarro Potosí, Bolivia. Derechos Reservados</p>
+    </div>
+</footer>
+
+<script src="./js/sucursales.js"></script>
+</body>
+</html>

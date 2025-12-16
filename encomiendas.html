@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envíos - Quijarro Transportes</title>
+    <link rel="stylesheet" href="./css/e.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<header class="navbar">
+    <img src="../img/quijarro.png" class="logo">
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./fu.html">Servicios</a>
+        <a href="./fu.html">Precios</a>
+         <a href="./encomiendas.html">envios</a>
+         <a href="./su.html">Sucursales</a>
+    </nav>
+    <a href="./fu.html" class="btn-header"><i class="fa-solid fa-ticket"></i> Compra tu pasaje</a>
+</header>
+
+<section class="envios-hero">
+    <div class="envios-hero-content reveal">
+        <h1>SERVICIO DE ENVÍOS Y ENCOMIENDAS</h1>
+        <p>Realiza tus envíos de forma segura y confiable a todo el país</p>
+    </div>
+</section>
+
+<section class="envios-info">
+    <div class="info-container reveal">
+        <div class="info-icon">
+            <i class="fa-solid fa-box"></i>
+        </div>
+        <h2>¿CÓMO REALIZAR TU ENVÍO?</h2>
+        <p>Para registrar tu encomienda, completa el siguiente formulario con los datos solicitados. Es importante que proporciones información correcta para garantizar que tu envío llegue a su destino de manera segura.</p>
+        <div class="info-steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <p>Completa el formulario con tus datos personales</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <p>Verifica que toda la información sea correcta</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <p>Envía el formulario y acércate a nuestra oficina</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="form-section">
+    <div class="form-container reveal">
+        <h2>FORMULARIO DE REGISTRO</h2>
+        <p class="form-subtitle">Por favor, completa todos los campos requeridos</p>
+        
+        <form id="enviosForm" novalidate>
+            <div class="form-group">
+                <label for="nombreCompleto">
+                    <i class="fa-solid fa-user"></i>
+                    Nombre Completo
+                </label>
+                <input 
+                    type="text" 
+                    id="nombreCompleto" 
+                    name="nombreCompleto"
+                    placeholder="Ingresa tu nombre completo"
+                    required
+                >
+                <span class="error-message" id="errorNombre"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="ci">
+                    <i class="fa-solid fa-id-card"></i>
+                    Cédula de Identidad (CI)
+                </label>
+                <input 
+                    type="text" 
+                    id="ci" 
+                    name="ci"
+                    placeholder="Ingresa tu número de CI"
+                    required
+                >
+                <span class="error-message" id="errorCI"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="celular">
+                    <i class="fa-solid fa-phone"></i>
+                    Número de Celular
+                </label>
+                <input 
+                    type="tel" 
+                    id="celular" 
+                    name="celular"
+                    placeholder="Ej: 71234567"
+                    required
+                >
+                <span class="error-message" id="errorCelular"></span>
+            </div>
+
+            <button type="submit" class="btn-submit">
+                <i class="fa-solid fa-paper-plane"></i>
+                Enviar Registro
+            </button>
+        </form>
+
+        <div id="successMessage" class="success-message" style="display: none;">
+            <i class="fa-solid fa-circle-check"></i>
+            <p>¡Registro exitoso! En breve nos pondremos en contacto contigo.</p>
+        </div>
+    </div>
+</section>
+
+<div class="divider"></div>
+
+<section class="oficinas">
+    <div class="ofi-img reveal">
+        <img src="../img/bus2.png" alt="bus 2">
+    </div>
+    <div class="ofi-text reveal">
+        <h2>VISITA NUESTRAS OFICINAS<br>PARA TU ENVÍO</h2>
+        <p>Una vez completado el formulario, acércate a cualquiera de nuestras oficinas en todo el país para realizar tu envío. Nuestro personal te atenderá y procesará tu encomienda de manera rápida y segura.</p>
+        <a class="btn">Ver Oficinas</a>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-container">
+        <div>
+            <img src="../img/quijarro.png" class="logo-footer">
+            <p>Servicio de transporte.</p>
+        </div>
+
+        <div>
+            <h4>Servicios</h4>
+            <p>House Cleaning</p>
+            <p>Office Cleaning</p>
+            <p>Window Cleaning</p>
+            <p>Floor Cleaning</p>
+        </div>
+
+        <div>
+            <h4>Links</h4>
+            <p>Home Page</p>
+            <p>Service Page</p>
+            <p>Blog</p>
+            <p>Contact Us</p>
+        </div>
+
+        <div>
+            <h4>Contactos</h4>
+            <p><i class="fa-solid fa-phone"></i> 456-575-4551</p>
+            <p><i class="fa-solid fa-envelope"></i> example@gmail.com</p>
+            <p><i class="fa-solid fa-location-dot"></i> Lorem Ipsum Text</p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+        <p>© 2025 Trans Quijarro Potosí, Bolivia. Derechos Reservados</p>
+    </div>
+</footer>
+
+<script src="../js/e.js"></script>
+</body>
+</html>
